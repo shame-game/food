@@ -33,6 +33,7 @@ clost.forEach((bttt, index) => {
 });
 
 
+
 (function ($) {
     "use strict";
 
@@ -115,3 +116,8 @@ clost.forEach((bttt, index) => {
 })(jQuery);
 
 
+document.querySelectorAll('.c').forEach((card) => {
+    card.onclick = ()=>{
+        alert('Gửi thành công')
+    }
+})
