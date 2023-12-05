@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FOOD STORY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="./img/logoo.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        a:hover {
+            color: unset;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid"
+                            src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t1.15752-9/370311729_1464965904236247_4676630440515528084_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEiWVO2bMdnaqM-9eaeoE3tfkWksCoAQvB-RaSwKgBC8PDQZFvTVcz_1q_ezNF87aF9PUiWzzrEcmJT6gD_84rs&_nc_ohc=Ny9mqFwjI-sAX86eIom&_nc_ht=scontent.fsgn2-8.fna&oh=03_AdTmn9SEtSvs5UCt7gUUhpk9xCJIpbA-AGAURh7pi5kyIQ&oe=657674F4"
+                            alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="m-0 text-primary">FOOD STORY</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="./index.html" class="nav-item nav-link">Trang chủ</a>
+                        <a href="./app.html" class="nav-item nav-link">Ứng dụng</a>
+                        <a href="./story.html" class="nav-item nav-link active">Câu chuyện</a>
+                        <a href="./contact.html" class="nav-item nav-link">Liên hệ</a>
+                    </div>
+                    <a class="btn btn-primary px-3 d-none d-lg-flex"></a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Câu chuyện<br> về thực phẩm</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="./index.html">Trang chủ</a></li>
+                            <li class="breadcrumb-item"><a href="./app.html">Ứng dụng</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">Câu chuyện</li>
+                            <li class="breadcrumb-item"><a href="./contact.html">Liên hệ</a></li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <img class="img-fluid"
+                        src="https://bizweb.dktcdn.net/100/357/495/articles/chat-dinh-duong-baker-baking-1.jpg?v=1597648175323"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Property List Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3">FOOD STORY </h1>
+                            <p>Thực phẩm là câu chuyện của con người và văn hóa</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                        <!--
+                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                            <li class="nav-item me-2">
+                                <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Tất cả</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Phổ biến</a>
+                            </li>
+                            <li class="nav-item me-0">
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Yêu thích</a>
+                            </li>
+                        </ul>
+                        -->
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/1.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #1</h5>
+                                        <a class="d-block h5 mb-2">ĐIỀU CHỈNH THÓI QUEN, TÂM LÝ "ĐỂ DÀNH", "CẢ NỂ"</a>
+                                        <h1>ㅤ</h1>
+                                    </div>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Điều chỉnh thói quen, tâm lý "để dành",
+                                                    "cả nể"</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #1</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Không thể phủ nhận ưu điểm của tính cách
+                                                    tiết kiệm và có phần lo xa của thế hệ trước. Chính những đấu thóc,
+                                                    lon gạo để dành mà chúng ta sống sót qua thời kỳ bom đạn hay nạn đói
+                                                    hoành hành.
+                                                    Thế nhưng, xã hội phát triển với tốc độ chóng mặt làm cho tính cách
+                                                    tốt đẹp ấy có những điểm dần không còn phù hợp.
+                                                    Đơn cử, nhiều người có tâm lý để dành những thứ dùng chưa hết, như
+                                                    nửa trái chanh, mấy lát cà chua hay bó rau mới lặt một ít...
+                                                    Không có gì sai khi tiết kiệm thực phẩm và cân đối chi phí nấu ăn.
+                                                    Thế nhưng, việc để dành mà không biết cách bảo quản cũng như dự trù
+                                                    thời gian tối đa có thể lưu trữ của từng loại thực phẩm khiến chúng
+                                                    hư hỏng, phải vứt bỏ là một sự lãng phí.
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://vcdn1-giadinh.vnecdn.net/2022/12/01/3-1669864659-2573-1669864895.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=geuqlfWdHj4D5g5S6zppyg"
+                                                        width="80%" height="auto" style="margin: auto;" alt="">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Chúng ta từng có thời kỳ ăn cơm độn, một cái trứng luộc cũng chia
+                                                    mấy phần. Điều đó ám ảnh nhiều người, khiến họ có tâm lý "thà thừa
+                                                    hơn thiếu". Khi ăn buffet, dù biết chắc không thể nào dùng hết, thay
+                                                    vì lấy đủ ăn hoặc có thể lấy thêm sau khi còn đói, họ cố gắng lấy
+                                                    hết mọi thứ mà họ nghĩ đắt nhất trong một lần, với tâm lý "thà để
+                                                    dành còn hơn bỏ sót", cứ lấy cho no con mắt, đỡ tiếc tiền mua vé,
+                                                    còn lại… tính sau. Đến khi tiệc tàn, trên bàn ngổn ngang thức ăn
+                                                    chưa dùng đến, họ đứng dậy với tâm trạng hồ hởi, nghĩ mình "không
+                                                    lỗ". Nhưng thật ra, họ đang "lỗ" rất nhiều thực phẩm và ý thức xã
+                                                    hội.
+                                                    Rồi tâm lý mua sắm thật nhiều để mời khách dịp Tết đến. Cả một năm
+                                                    làm lụng vất vả, để dành tiền sắm sửa một cái Tết đoàn viên thật ấm
+                                                    cúng thì chẳng có gì đáng chê trách. Tuy vậy, việc mua và nấu quá
+                                                    nhiều thực phẩm trong dịp Tết dù số tiền tích góp hạn hẹp và lượng
+                                                    thức ăn thực tế sử dụng không nhiều lại là một sự lãng phí nghiêm
+                                                    trọng. Bởi đâu phải cứ mâm cao cỗ đầy, đâu phải cứ rượu chè lai láng
+                                                    mới là Tết. Trở về nhà, cùng ăn bữa cơm sum họp sau quãng thời gian
+                                                    dài xa cách; cùng tảo mộ ông bà, du xuân, thăm người thân thiết...
+                                                    đã là một cái Tết trọn vẹn.
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/2.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #2</h5>
+                                        <a class="d-block h5 mb-2">LIÊU CƠM GẮP MẮM</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Liệu cơm gắp mắm</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #2</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Câu nói nêu trên của ông bà ta nhằm khuyên con cháu làm gì cũng vừa
+                                                    sức, kể cả trong chuyện ăn, xem ra vẫn nguyên giá trị.
+                                                    Tâm lý lấy nhiều, "xả láng" vì nghĩ mình đã bỏ tiền mua vé vào ăn
+                                                    khiến nhiều điểm du lịch ở nước ngoài phải để bảng "chỉ dẫn" tiếng
+                                                    Việt: "Vui lòng không lấy quá nhiều và đừng bỏ thức ăn thừa".
+                                                    Ngay cả trong những quán chay tự chọn cũng có hiện tượng lấy quá
+                                                    nhiều rồi bỏ. Đến nỗi, chủ quán phải lưu ý: "Xin đừng bỏ thừa thức
+                                                    ăn… Tính tiền gấp đôi".
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://vcdn-giadinh.vnecdn.net/2015/08/18/Hinh-1-Nuoc-mam-9897-1439885074.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=BQ737byzP-mhsD-5kVi_qw"
+                                                        width="80%" height="auto" alt="" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+                                                    Không chỉ chuyện ăn đồng giá và dạng buffet hay cơm tự chọn mới có
+                                                    cảnh dùng quá nhu cầu, nhiều khách du lịch ở khách sạn cũng sử dụng
+                                                    phung phí nước, điện, giấy vệ sinh... Ít ai quan tâm rằng cần tiết
+                                                    kiệm, không phải chỉ cho nơi phục vụ mình mà trên hết là cho môi
+                                                    trường. Thực tế, thực phẩm là tặng phẩm của đất trời và công sức
+                                                    nuôi trồng, với rất nhiều nhân duyên mới đến được bàn ăn: từ đất,
+                                                    nước, chăm bón, mưa nắng, đến thu hoạch, vận chuyển, chế biến… Do
+                                                    vậy, ăn uống chừng mực, không thừa mứa cũng chính là cách chúng ta
+                                                    trân trọng tự nhiên và biết ơn người tạo ra thức ăn nuôi sống ta
+                                                    hằng ngày.
+                                                    Nuôi dưỡng tâm lý theo hướng này, ta sẽ sống "muốn ít, biết đủ" và
+                                                    góp phần bảo vệ môi trường. Trên hết là hình thành thói quen chi
+                                                    tiêu, sử dụng mọi thứ một cách tiết kiệm hơn, làm giàu cho bản thân,
+                                                    gia đình và xã hội.
+                                                </p>
+                                                <div style="width: 80%;height: 300px; margin: 20px auto;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/3.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #3</h5>
+                                        <a class="d-block h5 mb-2">ỨNG XỬ VĂN MINH VỚI THỰC PHẨM THỪA</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Ứng xử văn minh với thực phẩm thừa</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #3</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Không thể phủ nhận ưu điểm của tính cách
+                                                    Trên thế giới, cứ 7 người thì có 1 người bị đói và hơn 20.000 trẻ em
+                                                    dưới 5 tuổi chết đói mỗi ngày. Câu chuyện lãng phí thực phẩm nóng
+                                                    lên trên toàn cầu với con số thống kê và cảnh báo đáng lo ngại có
+                                                    làm bạn quan tâm?
+                                                    Đôi ba người vẫn bao biện đồng tiền họ kiếm được, sử dụng tiết kiệm
+                                                    hay hoang phí là quyền của họ. Đôi ba người vẫn cố cãi rằng thực
+                                                    phẩm ấy họ đã mua, thức ăn ấy họ đã tính tiền thì đương nhiên họ có
+                                                    toàn quyền định đoạt… Xin thưa, điều ấy quả là ích kỷ!
+                                                    Lãng phí thực phẩm là một món nợ với tương lai! Sự hoang phí sức lao
+                                                    động, xem nhẹ mồ hôi nước mắt trên từng đồng tiền kiếm được đâu chỉ
+                                                    là câu chuyện của cá nhân! Tác động môi trường của hàng triệu tấn
+                                                    thực phẩm thừa mứa, ôi thiu, không sử dụng đến mới thật sự kinh
+                                                    hoàng
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://www.cleanipedia.com/images/5iwkm8ckyw6v/1ycDTGtlI2xPf7DrxHFAWO/9a4309ab8d48dd12e51228fa3f94ab54/c2h1dHRlcnN0b2NrXzEwOTExNjc4NjJfaHVnZS0xMDI0eDY4My5qcGc/990w-660h/c%C3%A1ch-x%E1%BB%AD-l%C3%BD-th%E1%BB%A9c-%C4%83n-th%E1%BB%ABa.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+                                                    Nguồn năng lượng và tài nguyên tiêu tốn cho quá trình nuôi trồng,
+                                                    đánh bắt, sản xuất, chế biến và phân phối thực phẩm đã bị đánh tráo
+                                                    bằng thái độ thờ ơ của bao người. Đặc biệt, thực phẩm bỏ đi bị thối
+                                                    rữa sẽ thải ra metan - một loại khí nhà kính mạnh. Môi trường, tài
+                                                    nguyên bị ảnh hưởng nghiêm trọng, bị hủy hoại bởi chính hành động
+                                                    ích kỷ của một số người vô tư, vô lo!
+                                                    Một vài chiến lược đã được triển khai hành động trong nỗ lực giảm
+                                                    lãng phí thực phẩm trên toàn thế giới. Tuy nhiên, đáng buồn là hiệu
+                                                    ứng tích cực mà nó mang lại vẫn chưa thật sự tác động sâu rộng đến
+                                                    nhận thức của đại bộ phận người dân, điển hình là Việt Nam vẫn ở
+                                                    "tốp đầu" trong nạn lãng phí thực phẩm.
+                                                    Muốn đạt mục tiêu xoay chuyển ý thức, thái độ, hành vi của người
+                                                    Việt xung quanh thói quen vung tiền mua sắm, chất đồ đầy ứ tủ lạnh,
+                                                    bày la liệt món trên mâm cỗ và thản nhiên phung phí, chúng ta cần
+                                                    đẩy mạnh khâu tuyên truyền nhằm thay đổi nhận thức của người dân.
+                                                    Bên cạnh đó, một số mô hình tận dụng thực phẩm thừa từ siêu thị, nhà
+                                                    hàng, quán xá như giảm giá cuối ngày, liên kết xin đồ ăn thừa cho
+                                                    người nghèo, khốn khó, người vô gia cư... cần được nhân rộng. Mỗi
+                                                    người cần phải ý thức được rằng: Bên cạnh cuộc sống đủ đầy của chúng
+                                                    ta, còn vô số người vẫn đang khao khát bữa ăn no!
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/4.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #4</h5>
+                                        <a class="d-block h5 mb-2">QUAN TRỌNG LÀ Ý THỨC</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Quan trọng là ý thức</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #4</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Theo chuyên gia tâm lý Bùi Quang Minh Nhật, giảng viên Trường Cao
+                                                    đẳng FPT Polytechnic, ăn uống là phạm trù thuộc văn hóa vật chất.
+                                                    Trong văn hóa này, người Việt có cách hành xử "chưa giàu đã xài
+                                                    hoang".
+                                                    Có nhiều yếu tố dẫn đến hành vi ấy. Trong đó, nguyên nhân đáng kể là
+                                                    sự giáo dục của gia đình chưa giúp trẻ hình thành được tính tiết
+                                                    kiệm và không hiểu về hệ quả của lãng phí thực phẩm. Ngoài ra, vì sĩ
+                                                    diện hoặc cá nhân chưa có được kỹ năng ứng xử khi tham gia dự tiệc
+                                                    dẫn đến hành vi lấy quá nhiều đồ ăn nhưng lại không dùng hết; trong
+                                                    khi tiếp khách, do tâm lý sợ thiếu nên mua sắm không cân nhắc…
+                                                    Hậu quả dễ thấy là hao phí tiền bạc. Mỗi ngày lượng đồ ăn thừa bỏ đi
+                                                    nhiều dẫn đến lượng rác thải ra ngoài môi trường tăng theo, tạo ra
+                                                    nhiều gánh nặng cho công tác xử lý rác thải.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://images2.thanhnien.vn/zoom/700_438/Uploaded/minhnguyet/2019_10_24/nau-com_YKAF.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+                                                    "Về đạo đức, hành vi quá phung phí thực phẩm cho thấy đâu đó có sự
+                                                    ích kỷ, vô tâm. Cá nhân giữ thói quen phung phí thực phẩm sẽ khó
+                                                    thích nghi khi vào môi trường mới, dễ bị mọi người đánh giá là kém
+                                                    tinh tế khi tham gia các bữa tiệc" - ông Bùi Quang Minh Nhật nói.
+                                                    Cũng theo ông Bùi Quang Minh Nhật, việc tiết kiệm thực phẩm không
+                                                    chỉ giúp ích cho bản thân mà còn thể hiện sự sâu sắc của cá nhân khi
+                                                    nghĩ đến những mảnh đời khác đang thiếu thốn và khó khăn về cái ăn.
+                                                    Do vậy, khi tham gia bữa tiệc, cần khéo léo, chỉ lấy đủ thức ăn cần
+                                                    và dùng hết; tránh việc lấy quá nhiều. Nếu sau buổi tiệc mà đồ ăn
+                                                    trên bàn còn dư thừa quá nhiều, có thể đề nghị nhà hàng, chủ tiệc
+                                                    cho phép đem về dùng hoặc chia sẻ cho người khác. Nhiều người sẽ cho
+                                                    rằng như vậy là "kém sang" nhưng những người hiểu biết sẽ nhìn thấy
+                                                    được giá trị đằng sau hành động này.
+                                                    Cha mẹ cần dạy con trẻ về tính tiết kiệm ngay trong chính ngôi nhà
+                                                    của mình qua những bữa cơm nhà. Hoặc có thể cho trẻ tham gia các
+                                                    khóa học kỹ năng về dùng tiệc. Với người lớn, rất khó để thay đổi
+                                                    thói quen nhưng ngay từ bây giờ, nếu kiên trì thực hành, chúng ta sẽ
+                                                    làm được. Nếu thấy hành vi không đẹp mắt như lấy quá nhiều đồ ăn, bỏ
+                                                    thức ăn thừa..., chúng ta có thể nhắc nhở nhẹ. Các nhà hàng cũng có
+                                                    thể chủ động treo bảng khuyến cáo thực khách.
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/5.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #5</h5>
+                                        <a class="d-block h5 mb-2">CẦN QUY CHUẨN</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Tư duy lệch lạc</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #5</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Nguyên nhân dẫn tới lãng phí thực phẩm có nhiều nhưng phần lớn đến
+                                                    từ những quan niệm lạc hậu, thích thể hiện. Quan niệm đó chỉ là tư
+                                                    tưởng "trưởng giả học làm sang" chứ kỳ thực chả "sang" gì cả. Thời
+                                                    buổi này mà nhiều người vẫn còn suy nghĩ đã đãi khách thì phải mâm
+                                                    cao cỗ đầy, đồ ăn ê hề, thừa mứa thì tôi chịu…
+                                                    Nhiều đám giỗ, gia chủ xếp thức ăn lên bàn chật ních, đến khi không
+                                                    còn một khoảng trống; rồi suy nghĩ khi ăn uống phải "dằn dĩa" mới
+                                                    lịch sự nên không ít người đi hàng quán thường chừa lại thức ăn.
+                                                    Có người sai lầm do thiếu tính toán, như ông anh tôi mỗi lần làm
+                                                    tiệc là ăn cả tuần chưa hết. Nguyên do là nhiều món mà món nào ông
+                                                    ấy cũng cân đo số lượng phải đủ no bụng mọi người. Vậy là gần như cứ
+                                                    4 món là dư trọn 3 phần!
+                                                    Còn lúc xách giỏ đi chợ, nhiều người cứ thấy vui mắt là chọn, mang
+                                                    về thật nhiều rau, thịt, cá, đồ hộp để tủ lạnh dù họ thừa nhận có
+                                                    khi không dùng tới. Đến lúc để lâu hỏng hết mới tiếc, nhưng tiếc vậy
+                                                    chứ cứ ra chợ là y như rằng lại "vui mắt chọn".
+                                                    Theo tôi vấn đề chính là ở quan niệm và thái độ về ăn uống của chúng
+                                                    ta có phần lệch lạc. Có lẽ đã đến lúc quên đi khái niệm mâm cao cỗ
+                                                    đầy là thể hiện tấm lòng hiếu khách hay vị thế gia chủ. Cũng đã đến
+                                                    lúc phải biết thể hiện ý thức, trình độ dân trí của mình qua cách ăn
+                                                    uống. Tiết kiệm, sử dụng đúng, đủ không chỉ tốt cho mình mà còn cho
+                                                    mọi người, vì mọi người.
+                                                    Nên nhớ, ông bà ta có dạy "một miếng khi đói bằng gói khi no". Còn
+                                                    nhiều người đang thiếu ăn lắm!
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://file.hstatic.net/200000312633/file/lang_phi_thuc_pham_va_giai_phap_han_che_tinh_trang_nay_4_125fdf66eff9423b87ae8febb64a3285.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/6.png" width="100%" alt="">
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Phổ biến</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #6</h5>
+                                        <a class="d-block h5 mb-2">"BỮA TIỆC SANG CHẢNH" CỦA BỐN ĐỨA TRẺ NGHÈO</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">"Bữa tiệc sang chảnh" của bốn đứa trẻ
+                                                    nghèo</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #6</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Dì tôi có nghề tay trái là đi phụ việc nấu đám cưới. Dì không phải
+                                                    bếp chính, bếp phụ gì cả, chỉ là một chân phụ rửa chén, cắt rau,
+                                                    nhặt hành, sắp xếp bát đĩa… Hễ có người gọi đi giúp đám cưới này hay
+                                                    đám giỗ kia là dì gác lại công việc làm nhang trầm để theo những
+                                                    chuyến xe nấu ăn đi khắp tỉnh.
+                                                    Ngày ấy, mỗi khi nghe dì thông báo đi phụ việc, chúng tôi hí hửng ra
+                                                    mặt vì sắp được thưởng thức những món "sang chảnh". Dù tối muộn thế
+                                                    nào, mấy chị em vẫn đợi dì về với cái bụng rỗng do nhịn cơm từ chiều
+                                                    để dành bụng ăn "tiệc". Chưa bao giờ dì về tay không và chúng tôi
+                                                    chẳng bao giờ phải thất vọng.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://i.ex-cdn.com/phatgiao.org.vn/files/content/2020/08/12/tai-sao-chung-ta-khong-duoc-de-thua-thuc-an-phatgiaoorgvn-4-1510.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Dì tôi có nghề tay trái là đi phụ việc nấu đám cưới. Dì không phải
+
+                                                    Tiền công chẳng được bao nhiêu nhưng bù lại sẽ có những gói thức ăn
+                                                    hấp dẫn được dì gói ghém cẩn thận mang về. Con tôm tẩm bột chấm nước
+                                                    sốt béo ngậy dẫu lớp bột chiên bên ngoài hết giòn từ lâu, mấy lát
+                                                    giả giò bóng dầu mỡ, cục xôi vò phảng phất mùi thơm của đậu xanh…
+                                                    luôn đem lại những niềm vui khó tả. Lũ trẻ hồi ấy đâu cần biết đó là
+                                                    thức ăn thừa trên các bàn tiệc được thu gom lại và chia đều cho
+                                                    thành viên trong nhóm phụ việc, và 4 đứa trẻ gồm 2 chị em tôi và 2
+                                                    con của dì đã lớn lên nhờ thức ăn thừa trong các buổi tiệc.
+                                                    Bởi vậy, mấy phần thức ăn thừa trong các buổi tiệc tùng của người
+                                                    dưng là cả một niềm vui lớn của chúng tôi. Sự lãng phí của người
+                                                    này, trong thời điểm nghèo khó đó, lại là giấc mơ của người khác.
+                                                    Thời gian gần đây, khi kinh tế phát triển, tư duy xem nhẹ đồ ăn
+                                                    dường như được "cổ vũ" mạnh mẽ hơn. Nhiều lần ngồi trong bàn tiệc,
+                                                    nhìn thực đơn các món được in sẵn, tôi chóng cả mặt vì một danh sách
+                                                    dài. Hồi kết của những màn ăn uống đó thường là la liệt thức ăn để
+                                                    lại và từ đây, một hiện tượng xấu khác tiếp diễn.
+                                                    Đó là việc nhiều khách trong tiệc trộn chung thức ăn thừa trong chén
+                                                    đĩa riêng của mình vào các đĩa thức ăn còn khá nguyên vẹn. Miếng chả
+                                                    cắn dở, chút nước xúp chưa ăn hết, cả vỏ tôm, vỏ cua gì cũng đổ ụp
+                                                    tất cả vào nồi lẩu, tô xúp. Thậm chí, có khách nam trẻ tuổi cầm chai
+                                                    bia đổ ào ào vào nồi lẩu mới chỉ vơi đi chút ít.
+                                                    Những món ăn thừa đó nếu không bị trộn lại thì có ai còn tận dụng
+                                                    được không? Tôi nghĩ là có khi liên hệ với tuổi thơ của của mình…
+                                                    Xin đừng ích kỷ như thế! Bởi biết đâu vẫn còn những đứa trẻ đang mỏi
+                                                    mắt chờ, ngóng cổ trông, lòng khấp khởi mong bà, mẹ, chị gói ghém về
+                                                    những túi thức ăn ngon lành… như chúng tôi ngày xưa.
+
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/7.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #7</h5>
+                                        <a class="d-block h5 mb-2">HÌNH THÀNH Ý THỨC TỪ HÀNH ĐỘNG CỦA NGƯỜI LỚN</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Hình thành ý thức từ hành động của người
+                                                    lớn</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #7</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Đi đám cưới, đám giỗ, đi ăn ở quán ăn bình dân, nhà hàng sang trọng
+                                                    hay ngay chính trong căn nhà của mình..., đâu đâu ta cũng có thể dễ
+                                                    dàng bắt gặp những đĩa thức ăn thừa trên bàn. Việc lãng phí thực
+                                                    phẩm diễn ra khắp nơi và đây sẽ là hình ảnh xấu xí trong mắt con
+                                                    trẻ, tạo thành thói quen xấu cho trẻ khi lớn.
+                                                    Để tránh lãng phí thực phẩm, người lớn cần là tấm gương. Không có
+                                                    bài học nào thiết thực và quý giá hơn bài học từ chính người lớn
+                                                    trong gia đình. Vì vậy, trước hết người lớn cần phải ý thức được giá
+                                                    trị của thực phẩm, biết quý trọng từng hạt cơm, ngọn rau, con cá.
+                                                    Khi mua sắm thực phẩm, cần tính toán hợp lý, mua vừa đủ dùng; tránh
+                                                    mua thừa, không dùng hết lại đổ bỏ.
+                                                    Trong các bữa ăn của gia đình, người lớn nên chú ý tập cho trẻ thói
+                                                    quen ăn uống gọn gàng, không làm rơi vãi cơm. Nhắc con lấy lượng
+                                                    thức ăn vừa đủ, cố gắng ăn hết phần thức ăn của mình. Ăn xong, nếu
+                                                    thức ăn còn thừa và vẫn dùng được cho bữa sau, cần xếp lại gọn gàng,
+                                                    không bỏ lẫn lộn. Vừa tập, vừa lưu tâm giải thích cho con hiểu vì
+                                                    sao không nên làm rơi vãi, cần ăn hết thức ăn… để hình thành cho con
+                                                    ý thức quý trọng thực phẩm và công sức của người lao động.
+                                                    Khi đi ăn ở ngoài, người lớn cần cân nhắc gọi các món ăn hợp khẩu vị
+                                                    với lượng vừa đủ, ăn hết phần thức ăn đã gọi. Phải thay đổi thói
+                                                    quen bỏ lại một chút thức ăn trong dĩa vì điều này gây ra sự lãng
+                                                    phí không cần thiết.
+                                                    Với những tấm gương đẹp từ người lớn trong gia đình, lâu dần con trẻ
+                                                    sẽ biết quý trọng thực phẩm và có thói quen ăn uống lành mạnh.
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://static.kinhtedothi.vn/images/upload/2021/12/20/a0aa7f66-50ad-44b3-91c6-92cbd4a265f9.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/8.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #8</h5>
+                                        <a class="d-block h5 mb-2">CẦN QUY CHUẨN</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Cần quy chuẩn
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #8</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Cách đây chưa lâu, công ty tôi tổ chức tiệc cho người lao động tại
+                                                    một nhà hàng tự chọn món ăn ở quận 5, TP HCM. Ngoài chúng tôi, nhà
+                                                    hàng này còn đón nhiều thực khách nữa.
+                                                    Mọi người thật sự choáng ngợp khi bước vào bởi vô vàn thức ăn ngon,
+                                                    đặc biệt là hải sản, được bày biện để ai cũng có thể lựa chọn theo
+                                                    sở thích. Nhiều người tranh thủ lấy rất nhiều món cho mình và cho
+                                                    người ngồi cùng bàn.
+                                                    Khi ra về, tôi quan sát trên một số bàn dư vô số thức ăn. Tôm, cua
+                                                    gần như còn nguyên con. Chè hạt sen táo đỏ trong các ly thì hầu như
+                                                    chỉ vơi đi một vài muỗng, trong khi trước đó, tôi và vài đồng nghiệp
+                                                    tìm đến quầy chè tính thưởng thức nhưng đành thất vọng quay đi vì
+                                                    nồi chè đã cạn. Thú thật, trước cảnh thi nhau lấy món nhưng dùng thì
+                                                    rất lãng phí khiến tôi xót hết cả ruột.
+                                                    Nhiều người ngại đi lại và có lẽ nhìn thấy đồ ăn, thức uống quá hấp
+                                                    dẫn nên mỗi lần lấy là lấy rất nhiều. Kết quả, tái diễn tình huống
+                                                    "xót ruột" như ở trên.
+                                                    Hai câu chuyện mà tôi tận mắt chứng kiến nằm trong vô số ví dụ về
+                                                    phí phạm thực phẩm. Nó không chỉ đào sâu sự phân biệt "người ăn
+                                                    không hết, kẻ lần không ra" mà còn ảnh hưởng xấu đến ứng xử xã hội,
+                                                    tạo gánh nặng cho khâu xử lý rác, gây áp lực lên việc gìn giữ môi
+                                                    trường.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://www.idico-idi.com.vn/images/tintuc/congdoan/20201020-Hoi-thi-nau-an-2020/Thi_nau_an_2.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+                                                    Thiết nghĩ, đã đến lúc cần thể hiện sự lịch thiệp và có văn hóa hơn
+                                                    trong việc dùng đồ ăn. Cần chấm dứt sự vô trách nhiệm với thực phẩm,
+                                                    nhất là tại nơi công cộng, các điểm đến du lịch, chốn đông người.
+                                                    Để làm được điều đó, trước hết phải bắt nguồn từ chính trong môi
+                                                    trường giáo dục của mỗi gia đình bởi gia đình là tế bào của xã hội.
+                                                    Gia đình có tốt thì xã hội mới tốt lên.
+                                                    Cũng cần nói thêm rằng đã đến lúc các cơ quan quản lý cần nghiên cứu
+                                                    để cho ra đời quy chuẩn về văn hóa trong ăn uống, sử dụng thực phẩm.
+                                                    Từ đó, xóa đi "danh hiệu đệ nhị lãng phí" không mấy hay ho của một
+                                                    khảo sát mới đây tại 8 quốc gia châu Á - Thái Bình Dương (Việt Nam
+                                                    xếp thứ 2 về lãng phí thực phẩm, chỉ sau Trung Quốc)
+
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/9.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #9</h5>
+                                        <a class="d-block h5 mb-2">NÊN LÀ NGƯỜI CÓ TRÁCH NHIỆM</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Nên là người có trách nhiệm
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #9</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Tôi có người quen làm nghề thu gom rác. Anh kể ngày nào nhặt những
+                                                    hộp nhựa trong sọt rác để bán ve chai cũng thấy lắm thức ăn thừa.
+                                                    Khi thì bánh, trái cây, có khi thì thịt cá. Điều làm anh tiếc hùi
+                                                    hụi là những thức ăn ấy đôi lúc nguyên vẹn. Khá nhiều hộp còn hạn sử
+                                                    dụng đến gần tuần lễ.
+                                                    Sự lãng phí ấy, trớ trêu, là không đáng ngạc nhiên. Bởi do nơi anh
+                                                    lấy rác là khu nhà giàu. Họ sẵn sàng vứt bỏ những thức ăn còn hạn vì
+                                                    sợ để lâu trong tủ lạnh hoặc sát hạn sử dụng sẽ ảnh hưởng đến sức
+                                                    khỏe. Phải chi họ mang cho người nghèo khó thì hay biết mấy, anh bạn
+                                                    tôi nói thế.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://vcdn-vnexpress.vnecdn.net/2019/06/29/h14-7518-1561808894.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+                                                    Thực tế cho thấy có những gia đình khá giả do muốn gì cũng có nên
+                                                    không biết trân trọng thứ đang sở hữu. Họ sẵn sàng vứt bỏ những đồ
+                                                    hộp sắp hết hạn chỉ vì sợ bệnh này, bệnh nọ. Có người vào quán gọi
+                                                    hàng loạt món ăn nhưng cuối cùng bỏ lại gần y nguyên trên bàn hoặc
+                                                    chỉ dùng qua trong cái nhìn tiếc nuối của những người đi ăn xin. Lại
+                                                    có một số gia đình vì quá cưng chiều con, mua những món đắt tiền
+                                                    nhưng con trẻ không chịu nuốt thành ra lãng phí... Đành rằng người
+                                                    ta bỏ tiền mua thì có quyền sử dụng hay không nhưng xét về góc độ xã
+                                                    hội thì đây là những hành động không đẹp…
+                                                    Hiện nay, rất nhiều chiến dịch tiết kiệm thức ăn diễn ra trên toàn
+                                                    thế giới nhằm tránh sự lãng phí và bảo vệ môi trường. Như ở Tây Ban
+                                                    Nha, người dân nghĩ ra cách đặt những chiếc tủ lạnh công cộng và gọi
+                                                    đó là "tủ lạnh đoàn kết". Cá nhân hoặc siêu thị có dư thực phẩm sắp
+                                                    hết hạn sử dụng cứ việc bỏ vào tủ lạnh đó. Ai thiếu ăn sẽ đến mở tủ
+                                                    lạnh và chọn lựa thực phẩm mình thích mang về chế biến dùng trong
+                                                    ngày. Ở Đức cũng có cách làm tương tự.
+                                                    Nhiều quốc gia và các tổ chức quốc tế đang tìm cũng như áp dụng các
+                                                    giải pháp để chống lãng phí thức ăn, tránh nguy cơ đói khát có thể
+                                                    sẽ xảy ra trong tương lai trên toàn cầu.
+                                                    Việc lãng phí thực phẩm sẽ dẫn đến lãng phí về tài nguyên, quỹ đất,
+                                                    nguồn nước, vật tư nông nghiệp, nhiên liệu hóa thạch... làm tăng
+                                                    phát thải khí gây hiệu ứng nhà kính, biến đổi khí hậu. Mỗi cá nhân,
+                                                    mỗi gia đình nên có trách nhiệm với cộng đồng, với hành tinh mình
+                                                    đang sống bằng việc ăn uống tiết kiệm, phù hợp. Thay vì bỏ những
+                                                    thức ăn còn dùng được, hãy mang biếu tặng người thân, người ăn xin
+                                                    hoặc trước đó mua ít lại, bảo quản tốt hơn... Điều này vừa thể hiện
+                                                    tính nhân văn, còn là cách bảo vệ môi trường cho trái đất.
+
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/10.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #10</h5>
+                                        <a class="d-block h5 mb-2">NGHỊCH LÝ CHỌN NHIỀU, BỎ NHIỀU</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Nghịch lý chọn nhiều, bỏ nhiều
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #10</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    2/3 con gà hấp muối sả, một nửa nồi lẩu hải sản và phần lớn đĩa cá
+                                                    lóc chiên giòn nằm trong vô số thức ăn mà cặp nam nữ bỏ lại tại nhà
+                                                    hàng có dịch vụ câu cá khu vực Bình Quới, phường 28, quận Bình
+                                                    Thạnh, TP HCM vào cuối tuần qua. Quản lý nhà hàng trong lúc chỉ đạo
+                                                    nhân viên dọn những món thừa nói với phóng viên đó là cảnh thường
+                                                    thấy trong những bữa tiệc của các thực khách tới đây.
+                                                    Anh này nhận xét thói quen của khách hễ vào là cấp tập gọi món. Món
+                                                    đưa ra ăn không hết thì vô tư bỏ lại nhiều khi nhìn thấy xót. "Hy
+                                                    hữu thì vài khách nữ đề nghị chúng tôi gom thức ăn dư vào bịch xốp
+                                                    mang về còn đa phần rời đi" - quản lý nhà hàng kể và cho biết đó là
+                                                    cách ứng xử với thức ăn "chưa đẹp" của người thành phố.
+                                                    Còn tại TP Hà Nội, theo ghi nhận trong nhiều nhà hàng buffet, tình
+                                                    trạng khách lấy thức ăn vô tội vạ, lấy rất nhiều nhưng không sử dụng
+                                                    hết phải bỏ đi diễn ra phổ biến. Anh Trần Cường (chủ nhà hàng buffet
+                                                    ở một trung tâm thương mại) cho biết hầu hết khách hàng đi ăn buffet
+                                                    đều có tâm lý "ăn tẹt ga". Tâm lý của họ là bỏ tiền thì phải sử dụng
+                                                    tối đa các dịch vụ hoặc phải "lãi" so với số tiền bỏ ra. Vì vậy,
+                                                    nhiều khách cứ lấy thức ăn rất nhiều nhưng chỉ ăn chút ít, có khách
+                                                    nướng cả đĩa thịt rồi không ăn, nhà hàng phải bỏ hết.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://kinhtevadubao.vn/stores/news_dataimages/kinhtevadubaovn/022020/08/00/1581011799-news-1588320210326123205.0398100.jpg?randTime=1699197852"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/11.jpg" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #11</h5>
+                                        <a class="d-block h5 mb-2">CÂU CHUYỆN THỰC PHẨM - LỊCH SỬ QUA TRANH VỀ MỌI
+                                            THỨ CHÚNG TA ĂN</a>
+                                        <h1>ㅤ</h1>
+                                    </div>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Vấn đề lãng phí thực phẩm và câu chuyện
+                                                    đi tìm giải pháp chưa bao giờ cũ
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #11</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Vấn đề lãng phí thực phẩm và câu chuyện đi tìm giải pháp chưa bao
+                                                    giờ cũ
+
+                                                    Đối với nhiều người, lãng phí thực phẩm đã vô tình trở thành thói
+                                                    quen hằng ngày mà họ không nhận ra, chẳng hạn như mua nhiều nguyên
+                                                    liệu hơn mức cần thiết cho bữa ăn, để mặc trái cây, rau củ hư hỏng
+                                                    trong tủ lạnh hoặc nấu nhiều hơn khẩu phần có thể ăn. Đây là một vấn
+                                                    đề phổ biến trên toàn toàn cầu và ảnh hưởng sâu sắc đến môi trường
+                                                    sống khi hơn ⅓ sản lượng lương thực đang bị thất thoát và lãng phí
+                                                    mỗi năm
+
+                                                    Chúng ta đang sống trong cái thời đại mà thực phẩm không hề giống
+                                                    như hồi ông bà của ta cái thời mà nạn đói còn hoành hành. Một số
+                                                    người không nhận ra được tầm quan trọng của thực phẩm nên vô tình họ
+                                                    đã trở thành một trong những người gây ra việc lãng phí thực phẩm.
+
+                                                    Không nói chi xa Số người bị ảnh hưởng bởi nạn đói trên thế giới đã
+                                                    tăng lên 828 triệu người vào năm 2021 (tăng 150 triệu từ khi đại
+                                                    dịch COVID-19 xảy ra). Trong bối cảnh này, hơn 1,3 tỷ tấn lương thực
+                                                    sản xuất ra vẫn bị lãng phí.
+
+                                                    kể từ cuộc cách mạng công nghiệp vào những năm 1900, tình trạng lãng
+                                                    phí thực phẩm bắt đầu trở nên rõ ràng hơn. Trước đó, con người chủ
+                                                    yếu bảo quản thức ăn bằng cách ướp muối, gia vị, sấy khô… Đến khoảng
+                                                    những năm 1930, tủ lạnh ra đời giúp chúng ta bảo quản thực phẩm lâu
+                                                    hơn, nhưng cũng từ đó, quá trình công nghiệp hóa nông nghiệp đã tăng
+                                                    cường việc sản xuất thừa (overproduction) để đáp ứng nhu cầu cung
+                                                    cấp thực phẩm cho nhiều người trong thời gian dài hơn. Điều này làm
+                                                    tăng dần lượng thực phẩm bị thất thoát và lãng phí.
+
+
+
+
+                                                </p>
+
+                                                <div class="img-sp"><img
+                                                        src="https://media.cooky.vn/article/s640/cooky-article-cover-b4369.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+
+
+                                                    Thức ăn thừa, bãi chôn lấp và khí nhà kính
+                                                    Nếu thực phẩm thừa hoặc những thứ có thể phân hủy sinh học bị đổ vào
+                                                    bãi chôn lấp và thối rữa, chúng tạo ra khí metan (loại khí có khả
+                                                    năng giữ nhiệt trong khí quyển mạnh gấp 25 lần cacbon dioxit, cắt
+                                                    giảm khí metan hiện đang là một chiến lược hiệu quả để giảm sự nóng
+                                                    lên toàn cầu). Trong hai thế kỷ qua, nồng độ metan trong khí quyển
+                                                    đã tăng hơn gấp đôi, phần lớn là do các hoạt động liên quan đến con
+                                                    người. Các bãi chôn lấp và nước thải là một trong số đó, góp phần
+                                                    thải ra 67 triệu tấn metan (khoảng 20% tổng lượng khí metan)
+
+                                                    Tận dụng mọi thứ ta có
+                                                    Khi số lượng người dân tăng cao thách thức mà ta cần đối đầu không
+                                                    phải là làm sao để tạo ra nhiều hơn mà là nuôi sống nhiều người bằng
+                                                    cách tận dụng những gì chúng ta đã sản xuất. Điều này đồng nghĩa với
+                                                    việc giảm việc lãng phí thực phẩm đến mức tối thiểu. Các giải pháp
+                                                    được đề ra bởi chính phủ và các doanh nghiệp là biến thực phẩm thừa
+                                                    thành năng lượng tái tạo, tận dụng thức ăn bỏ đi để chăn nuôi gia
+                                                    súc, ủ phân làm chất dinh dưỡng cho đất và cây trồng…,bên cạnh những
+                                                    giải pháp này mỗi cá nhân chúng ta đều có thể tạo ra những sự khác
+                                                    biệt đáng kể ở cấp độ người tiêu dùng.
+
+                                                    Một số gợi ý về việc hạn chế lãng phí thực phẩm:
+                                                    Chỉ mua những thứ mình cần:
+                                                    Nên lên danh sách mặt hàng cần mua và dựa trên đó để tránh mua sắm
+                                                    ngẫu nhiên. Một số người ưa chuộng mua hàng số lượng lớn, nhưng
+                                                    nghiên cứu chỉ ra cách chi tiêu này dẫn đến lãng phí thực phẩm nhiều
+                                                    hơn.
+
+                                                    Chọn cả những rau củ xấu:
+                                                    Không nên đánh giá thực phẩm qua vẻ bề ngoài. Những loại trái cây,
+                                                    rau củ "xấu" thường bị vứt bỏ tùy tiện nhưng chúng có giá trị dinh
+                                                    dưỡng và hương vị như nhau. Khi ưu tiên rau củ hoàn hảo, các chuỗi
+                                                    cửa hàng sẽ chạy theo nhu cầu người dùng và chỉ lấy thực phẩm bắt
+                                                    mắt từ nông dân, dẫn đến số thực phẩm kia bị lãng phí.
+
+                                                    Bảo quản một cách thông minh:
+                                                    Bảo quản thực phẩm đúng cách giúp duy trì chất lượng và giá trị dinh
+                                                    dưỡng, kéo dài thời hạn sử dụng. Lưu ý sử dụng quy tắc "đầu vào
+                                                    trước, đầu ra trước" để tránh lãng phí. Đối với thực phẩm tươi sống,
+                                                    sử dụng túi chống hơi nước và tủ lạnh. Việc bảo quản thực phẩm đúng
+                                                    cách không chỉ bảo vệ sức khỏe mà còn đóng góp vào nỗ lực giảm lãng
+                                                    phí thực phẩm và bảo vệ nguồn lực tự nhiên.
+
+                                                    Học cách tiết kiệm và chung sống với thức ăn thừa:
+                                                    Nếu không ăn hết những gì mình nấu, hãy để tủ lạnh ăn sau hoặc dùng
+                                                    làm nguyên liệu sáng tạo món khác. Bảo quản thức ăn thừa trong hộp
+                                                    thủy tinh thay vì hộp nhựa mờ đục sẽ giúp chúng ta không bỏ quên
+                                                    thức ăn.
+
+                                                    Khi hàng trăm triệu người vẫn đang lo lắng về bữa cơm hằng ngày,
+                                                    những người có điều kiện ăn uống no đủ như chúng ta nên dành sự tôn
+                                                    trọng đối với thực phẩm bằng cách cắt giảm việc lãng phí.
+
+                                                    Như đầu bếp người Pháp Adrien Guenzi đã chia sẻ với LeLa Journal:
+                                                    "Tôi không bao giờ bỏ phí thức ăn và cố gắng kiểm soát bằng cách chú
+                                                    ý hơn đến khẩu phần. Chúng ta chỉ cần nấu và ăn ở một mức vừa đủ.
+                                                    Đôi lúc tôi tình cờ thấy những người vô gia cư trên đường phố, họ
+                                                    rất gầy vì không đủ ăn. Tại các quốc gia ở châu Phi, điều này phổ
+                                                    biến hơn. Nhiều người thức dậy mỗi sáng chỉ có duy nhất mục đích tìm
+                                                    đủ thức ăn cho ngày hôm đó, làm sao để mua thực phẩm cho hôm nay và
+                                                    sống sót. Chúng ta lại có may mắn được ăn đủ mỗi ngày và có quyền
+                                                    lựa chọn thực phẩm mình mong muốn. Đây cũng là một phần lý do vì sao
+                                                    mình nên dành sự tôn trọng và biết ơn cho món ăn".
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/12.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">Câu chuyện #12</h5>
+                                        <a class="d-block h5 mb-2">HẠT NHÂN NHỎ, ẢNH HƯỞNG LỚN</a>
+                                    </div>
+                                    <h1>ㅤ</h1>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Hạt nhân nhỏ, Ảnh hưởng lớn
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #12</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Chúng ta có thể thấy được khi đại dịch covid hoành hành, chúng ta đã
+                                                    vô tình tạo ra sự lãng phí thức ăn, trong từng hành vi nhỏ nhặt hằng
+                                                    ngày, trong từng bữa ăn trong bối cảnh dịch bệnh. Một vài miếng
+                                                    thịt, mẩu bánh mì bỏ đi có vẻ không gây cho người ta cảm giác miễn
+                                                    cưỡng, quá băn khoăn bởi những thứ ấy không đáng là bao. Thế nhưng,
+                                                    nếu mang cái sự không đáng là bao nhân với 365 ngày của năm thì theo
+                                                    tính toán của một chuyên gia, mỗi năm, mỗi người đã lãng phí hơn
+                                                    100kg lương thực, thực phẩm. Số lương thực, thực phẩm ấy đủ cho khối
+                                                    lượng tiêu thụ của một người trong tầm 3 - 4 tháng.
+                                                </p>
+
+                                                <div class="img-sp"><img
+                                                        src="https://gpcantho.com/wp-content/uploads/2020/05/anh-258-1502_XEYE.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Không chỉ nói trong bối cảnh dịch bệnh mà ở bất kỳ trường hợp nào
+                                                    thức ăn cũng cần phải quý trọng
+
+                                                    Một sự bất công được xảy ra khi mà số lượng thức ăn dư thừa đấy bị
+                                                    vứt bỏ ngay chính cái nơi mà còn tồn tại rất nhiều những người vô
+                                                    gia cư, thiếu ăn, đói bữa. Hoặc đơn giản hơn, chưa chắc gì chính chủ
+                                                    nhân của sự lãng phí ấy có thể mua được một lúc hơn 100 kg lương
+                                                    thực thực phẩm kia.
+
+                                                    Để nói về vấn đề lãng phí thức ăn thức sự có rất nhiều kiểu, rộng
+                                                    hơn thì có thể gọi nó là phí phạm lương thực thực phẩm. Kể cả việc
+                                                    vứt bỏ thức ăn thì những thực phẩm hết hạn sử dụng, bị hư hại phải
+                                                    tiêu hủy vì không thể sử dụng được nữa, việc hao hụt trong quá trình
+                                                    vận chuyển hay đơn cử là việc tiêu thụ quá nhiều thức ăn, quá nhu
+                                                    cầu dinh dưỡng dẫn đến tình trạng thừa cân, béo phì… tất cả đều có
+                                                    thể quy về sự lãng phí.
+
+                                                    Và con số 100kg trên tưởng lớn nhưng vẫn là rất nhỏ trong bức tranh
+                                                    toàn cầu khi nó được nhân lên với hàng tỷ con người trên trái đất.
+                                                    Ước tính số lương thực thực phẩm phung phí ấy đủ chất đầy hàng chục
+                                                    triệu chiếc xe tải nặng cỡ 40 tấn, nếu nối đuôi nhau chúng có thể ôm
+                                                    gọn hành tinh trái đất của chúng ta.
+
+                                                    Ta có thể thấy rằng, ngày càng có nhiều người rơi vào tình trạng
+                                                    thiếu ăn. Trong khi đó, tiến trình xóa đói bị đình trệ do đại dịch
+                                                    Covid-19, xung đột, chiến tranh… càng làm trầm trọng thêm những điểm
+                                                    yếu và thiếu sót trong hệ thống lương thực toàn cầu trên tất cả các
+                                                    hoạt động. Kể cả khi lãnh đạo của các cơ quan Liên Hợp Quốc tham gia
+                                                    thực hiện Báo cáo về “Tình hình an ninh, lương thực và dinh dưỡng
+                                                    trên thế giới” tuyên bố cam kết về một sự chuyển đổi để mở ra “con
+                                                    đường bền vững cho mọi người và cho toàn thế giới” thì thực tế diễn
+                                                    ra đã khiến bản Báo cáo của Liên Hợp Quốc về khả năng đạt mục tiêu
+                                                    xóa đói tới năm 2030 đang bị hoài nghi.
+
+                                                    Trong khi đó, lãng phí thực phẩm vẫn còn đang diễn ra theo hàng giờ
+                                                    liền có những người đang lãng phí số thực phẩm đó và cũng có những
+                                                    người đang chịu đói vì không có thức ăn. Điều đáng nói ở đây lãng
+                                                    phí chỉ là tảng băng chìm, bời vì đằng sau nó còn tồn tại những góc
+                                                    khuất, Những nguồn năng lượng và tài nguyên khổng lồ được dồn vào để
+                                                    sản xuất nguồn năng lượng thất thoát đó.
+
+                                                    Ở một góc độ trực diện hơn, hàng nghìn tỷ đô mỗi năm được dùng để
+                                                    tạo ra chúng đã bị "đốt" đi một cách vô ích. Hơn thế, số lương thực
+                                                    thực phẩm thừa nếu không được phân loại, tận dụng, sẽ kết thúc vòng
+                                                    đời bằng việc bị chôn lấp tại các khu xử lý rác thải, gây ảnh hưởng
+                                                    tới môi trường.
+
+                                                    Vấn đề đặt ra là có những sự lãng phí hoàn toàn do vô thức, không
+                                                    chủ ý. Thế nhưng sự lãng phí dù vô tình hay cố ý thì đều gây ra hậu
+                                                    họa giống nhau.
+
+                                                    Vậy nên, để cộng đồng có được một tương lai tốt hơn, bên cạnh sự cố
+                                                    gắng của các tổ chức thế giới, sự cố gắng của mỗi quốc gia, rất cần
+                                                    đến sự tự giác của mỗi người trong việc “chia tay” một số hành vi
+                                                    lãng phí lương thực, thực phẩm quen thuộc. Câu trả lời chỉ có thể có
+                                                    hiệu quả thực sự khi nó được nằm trong chiếc túi mua đồ, trên chính
+                                                    đĩa thức ăn và thậm chí, ngay cả trong… thùng rác.
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/13.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">THE STORY OF FOOD</h5>
+                                        <a class="d-block h5 mb-2">CÂU CHUYỆN THỰC PHẨM - LỊCH SỬ QUA TRANH VỀ MỌI
+                                            THỨ CHÚNG TA ĂN</a>
+                                        <h1>ㅤ</h1>
+                                    </div>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Ý nghĩa của “túi đựng thức ăn thừa”
+                                                </h1>
+                                                <h2 style="text-align: center;">Câu chuyện #13</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Từ trước kia ở Ý đã từng tồn tại một truyền thống giúp cho việc hạn
+                                                    chế đồ ăn thừa. Túi đựng thức ăn thừa đã từng rất phổ biến tại đất
+                                                    của hoa hồng này, thực khách có thể mang thức ăn không dùng hết ở
+                                                    tiệm về nhà. Tuy nhiên, khi đời sống của mỗi cá nhân khá lên thì họ
+                                                    lại quên mất thói quen này. Nhưng giờ đây, họ bỗng tích cực sử dụng
+                                                    túi đựng thức ăn thừa, vì sao?
+                                                    Một điều mà chúng ta chắc chắn rằng Người Ý vốn nổi tiếng là yêu ẩm
+                                                    thực, sành ăn, và sáng tạo ra nhiều món ăn trứ danh trong nền ẩm
+                                                    thực thế giới, tuy vậy, giống như nhiều quốc gia Châu u khác, thức
+                                                    ăn bị bỏ phí là một sự lãng phí khủng khiếp mà người Ý vẫn đang loay
+                                                    hoay tìm cách giải quyết thỏa đáng.
+                                                </p>
+
+                                                <div class="img-sp"><img
+                                                        src="https://o.vdoc.vn/data/image/2022/10/27/Vi-du-ve-y-nghia-cua-su-phat-trien-kinh-te-doi-voi-ca-nhan-gia-dinh-va-xa-hoi.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Mới đây, nhà chức trách ở Ý đã thông qua một số điều luật nhằm đưa
+                                                    ra những giải pháp giúp giảm lượng thực phẩm bị bỏ phí tại nước này
+                                                    mỗi năm. Những điều luật mới này được kỳ vọng sẽ giúp giảm lượng
+                                                    thực phẩm bị lãng phí tại Ý từ 5 triệu tấn/năm xuống còn khoảng 1
+                                                    triệu tấn/năm.
+
+                                                    Điều này thực sự hiệu quả khi mà tại phiên chợ Triển lãm Quốc tế
+                                                    Milano 2015 (Ý), chủ đề về vấn đề an ninh lương thực trên thế giới
+                                                    đã từng rất thu hút sự chú ý. Và giờ đây, chủ đề này đã được nhà
+                                                    chức trách tại ý tiếp tục nghiên cứu, khai thác, triển khai và bắt
+                                                    đầu đưa ra được những giải pháp tích cực.
+
+                                                    những điều mà nhà chức trách Ý đang thực hiện đã được Báo chí quốc
+                                                    tế khen ngợi, sự kiện này được coi là “một trong những động thái
+                                                    nhân văn và thực tế nhất”. Nhưng Gần đây, tại một số quốc gia Châu
+                                                    u, câu chuyện về lãng phí thực phẩm đang thu hút sự quan tâm của nhà
+                                                    chức trách và công chúng.
+
+                                                    Theo thống kê của nhà chức trách Ý, việc lãng phí thực phẩm ở Ý
+                                                    khiến nước này mỗi năm vứt vào thùng rác (theo đúng nghĩa đen) hơn
+                                                    12 tỉ euro (gần 300.000 tỉ đồng), tương đương hơn 1% GDP của Ý. Tuy
+                                                    vậy, đây không phải câu chuyện chỉ xảy ra ở riêng nước Ý.
+
+                                                    Theo Tổ chức Nông - Lương Liên Hợp Quốc (FAO), khoảng 1/3 số lương
+                                                    thực trên toàn thế giới bị bỏ phí, ở những nước giàu, con số cụ thể
+                                                    còn lớn hơn, chẳng hạn như tại Châu u, số lương thực bị bỏ phí lên
+                                                    tới 40%. Theo FAO, số lượng thực phẩm hiện tại bị bỏ phí ở Châu u có
+                                                    thể nuôi sống 200 triệu người nghèo đói.
+
+                                                    Cho dù chính sách và những giải pháp có phát triển như vậy nhưng ở Ý
+                                                    hay bất kì các quốc gia khác vẫn luôn có những người nghèo đói hoặc
+                                                    vô gia cư. Trên thực tế, Ý vẫn có hàng triệu người sống trong nghèo
+                                                    đói, vậy nhưng đất nước nổi tiếng với nền ẩm thực phong phú, mỗi năm
+                                                    đều bỏ phí 5 triệu tấn thức ăn.
+
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://vdoc.edu.vn/wp-content/uploads/2022/07/long-nhan-ai.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Trước đây, các doanh nghiệp hoạt động trong ngành ẩm thực ở Ý thường
+                                                    phải đối diện với những nguy cơ và rào cản khi muốn quyên góp thực
+                                                    phẩm.
+
+                                                    Họ e ngại rằng thực phẩm thừa đem quyên góp có thể không đảm bảo
+                                                    chất lượng, vi phạm những tiêu chuẩn an toàn, vì vậy, để khỏi gặp
+                                                    rắc rối với nhà chức trách và làm giảm uy tín thương hiệu, thường họ
+                                                    lựa chọn cách vứt bỏ thực phẩm thừa. Điều này vô hình chung tạo nên
+                                                    một sự cấm kỵ tuyệt đối với vấn đề mà thế giới đang hạn chế đó là
+                                                    giảm thiểu thực phẩm thừa. Ngoài ra, Quy trình quyên góp thực phẩm ở
+                                                    Ý trước đây cũng rất phức tạp với nhiều chuẩn mực khắt khe về vệ
+                                                    sinh an toàn và nguồn gốc xuất xứ thực phẩm.
+
+                                                    Tuy nhiên, Với luật mới, việc quyên góp thực phẩm sẽ dễ dàng hơn
+                                                    nhiều, khi các tiêu chuẩn khắt khe được giảm bớt, bởi suy cho cùng,
+                                                    việc người vô gia cư phải đến các bãi rác gần siêu thị, hoặc bới
+                                                    thùng rác bên cạnh các quán ăn để tìm thực phẩm thừa lót dạ còn kinh
+                                                    khủng hơn việc đưa cho họ những thực phẩm sạch - sắp hoặc vừa mới
+                                                    hết hạn sử dụng.
+
+                                                    Giờ đây, các doanh nghiệp ở Ý sẽ không gặp rắc rối nếu đem quyên góp
+                                                    thực phẩm vừa mới quá hạn sử dụng. Doanh nghiệp nào càng quyên góp
+                                                    nhiều thực phẩm sẽ càng được giảm trừ tiền thuế.
+
+                                                    Bộ Nông nghiệp Ý đã quyết định chi ra 1 triệu euro (25 tỉ đồng) để
+                                                    nghiên cứu những phương thức tiên tiến nhất nhằm đóng gói thực phẩm
+                                                    trong quá trình di chuyển, phân phát, sao cho tránh khỏi việc làm
+                                                    hỏng thực phẩm và giúp kéo dài thời hạn sử dụng an toàn của thực
+                                                    phẩm.
+
+                                                    Đồng thời, một chiến dịch truyền thông sẽ được tiến hành để nâng cao
+                                                    nhận thức toàn dân xoay quanh việc giảm lượng thực phẩm bị lãng phí.
+
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://aneco.com.vn/wp-content/uploads/tui-PE-dung-thuc-pham-khong-tot-cho-suc-khoe.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Đối với những người đi ăn hàng, Bộ Nông nghiệp Ý khuyến khích sử
+                                                    dụng “túi thực phẩm” để đựng các món thực phẩm dư thừa, đem quyên
+                                                    góp cho các tổ chức từ thiện hoặc người vô gia cư. Chi tiết này đã
+                                                    rất thu hút sự quan tâm của người dân Ý - một đất nước có rất nhiều
+                                                    nhà hàng, quán ăn và người dân cũng có thói quen thường xuyên đi ăn
+                                                    tiệm.
+
+                                                    Nếu những chuyển biến này được thực hiện hiệu quả, dự đoán đời sống
+                                                    văn hóa Ý sẽ có những biến đổi lớn theo hướng nhân văn, sẻ chia hơn.
+
+                                                    Từ rất lâu, người Ý đã có ý tưởng về “túi thực phẩm” để các thực
+                                                    khách có thể mang về nhà những thực phẩm dư thừa từ bữa ăn mà họ
+                                                    không dùng hết tại nhà hàng, cửa hiệu.
+
+                                                    Tuy vậy, khi đời sống ngày càng được nâng cao, hình ảnh những thực
+                                                    khách bước ra khỏi nhà hàng với “túi thực phẩm” không còn xuất hiện
+                                                    nữa, người ta không ngần ngại bỏ lại những thực phẩm thừa, để mặc
+                                                    nhân viên nhà hàng tự xử lý.
+
+                                                    Giờ đây, những chiếc “túi thực phẩm” sẽ được đưa vào sử dụng trở lại
+                                                    tại các nhà hàng, kết hợp với chiến dịch nâng cao nhận thức của
+                                                    người dân, nhằm khuyến khích họ cất thức ăn thừa vào túi sạch và đem
+                                                    cho những người vô gia cư trên đường phố.
+
+                                                    Tại Châu u, hiện tại, ngoài Ý, còn có Pháp cũng đang tiến hành những
+                                                    biện pháp tích cực tương tự. Đầu năm nay, Pháp đã thông qua hàng
+                                                    loạt những biện pháp nhằm giảm lượng thực phẩm bị lãng phí.
+
+                                                    Hiện tại, Pháp và Ý được xem là hai quốc gia đi tiên phong trong
+                                                    những chính sách văn minh, hướng đến việc sử dụng hiệu quả nguồn
+                                                    lương thực. Hai quốc gia này sẽ là những ví dụ điển hình với những
+                                                    kinh nghiệm điển hình.
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden btttt">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="./img/14.png" width="100%" alt="">
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">THE STORY OF FOOD</h5>
+                                        <a class="d-block h5 mb-2">CÂU CHUYỆN THỰC PHẨM - LỊCH SỬ QUA TRANH VỀ MỌI
+                                            THỨ CHÚNG TA ĂN</a>
+                                        <h1>ㅤ</h1>
+                                    </div>
+                                </div>
+                                <div class="bg" style="display: none;"></div>
+                                <div class="box" style="display: none;justify-content: center;">
+                                    <div class="boxx">
+                                        <div class="scroll">
+                                            <div class="col-lg-12"
+                                                style="display: flex;justify-content: end;height: max-content;">
+                                                <i class="bi bi-x-lg clost"></i>
+                                            </div>
+                                            <div class="col-lg-12" style="display: flex;flex-direction: column;">
+                                                <h1 style="text-align: center;">Người lớn là tấm gương cho trẻ em</h1>
+                                                <h2 style="text-align: center;">Câu chuyện #14</h2>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Vừa qua, chương trình tri ân khách hàng của một hệ thống rạp chiếu
+                                                    phim đã gây nhiều tranh cãi, xuất phát từ hành động hưởng ứng quá đà
+                                                    của các “thượng đế”. Theo đó, khán giả khi đến mua vé tại rạp sẽ
+                                                    được “đổ đầy bắp rang miễn phí mà không cần biết vật chứa là thứ gì,
+                                                    có thể là ly, hộp, xô, bình nước... (ngoại trừ túi nilon, túi
+                                                    giấy)”. Chương trình này ngay lập tức trở nên “hot” trên các nền
+                                                    tảng xã hội. Hình ảnh nhiều khách hàng hào hứng mang theo vật đựng
+                                                    quá khổ, như nồi cơm điện, thùng đựng đá dung tích lớn, thùng xốp…
+                                                    nhanh chóng lan truyền với tốc độ chóng mặt. Cũng từ đây, xu hướng
+                                                    “kẻ hủy diệt bắp rang” xuất hiện khiến vật đựng ngày càng “siêu to
+                                                    khổng lồ” và “kỳ lạ”, từ thúng gánh, valy đến xe rùa…
+                                                    Rõ ràng, lượng bắp mà mỗi người nhận đã vượt quá khả năng tiêu thụ
+                                                    của bản thân rất nhiều lần mặc dù nhà rạp đã có lưu ý với khán giả:
+                                                    “Để không lãng phí đồ ăn, quý khách vui lòng cầm theo đồ đựng có
+                                                    dung tích đủ dùng phù hợp với nhu cầu cá nhân”. Tuy nhiên, khuyến
+                                                    cáo này chỉ dừng lại ở mức độ khuyến khích và dựa trên sự ý thức của
+                                                    từng cá nhân. Hệ quả là lượng lớn bắp rơi vãi trên nền nhà hoặc nằm
+                                                    trong các thùng rác trước các phòng chiếu. Vượt khỏi mục đích kích
+                                                    cầu ban đầu, có thể thấy, việc chạy theo trào lưu một cách vô tư của
+                                                    không ít người đã gây lãng phí thực phẩm đáng kể.
+                                                    Đáng tiếc, hành vi xấu xí này diễn ra ngay sau Ngày quốc tế nhận
+                                                    thức về thất thoát và lãng phí thực phẩm (29-9) không lâu. Sự lo
+                                                    ngại về tình trạng tổn thất và lãng phí thực phẩm đã được các quốc
+                                                    gia trên toàn cầu quan tâm và có nhiều biện pháp phòng, chống từ
+                                                    sớm. Tuy nhiên, dường như xu hướng này vẫn đang tiếp diễn tồi tệ
+                                                    trong những năm gần đây.
+                                                </p>
+                                                <div class="img-sp"><img
+                                                        src="https://kenh14cdn.com/2019/4/4/5616978715756977458937245724246160575561728n-15543693918741208809902.jpg"
+                                                        width="80%" height="auto" style="margin: auto;">
+                                                </div>
+                                                <p
+                                                    style="font-size: calc(0.7rem + 0.5vw); text-align: justify; width: 80%; margin: 30px auto; line-height: 1.5;">
+                                                    Theo số liệu của Tổ chức Lương thực và Nông nghiệp Liên Hợp Quốc
+                                                    (FAO), trong năm 2015, khoảng 1,3 tỷ tấn lương thực, thực phẩm đã bị
+                                                    vứt bỏ. Đáng chú ý, tỷ lệ lãng phí thực phẩm của Việt Nam cao gấp
+                                                    hai lần các nền kinh tế tiên tiến và giàu có trên thế giới. Khảo sát
+                                                    năm 2018 của CEL Consulting - hãng tư vấn về chuỗi cung ứng và vận
+                                                    hành nông nghiệp - cho thấy, Việt Nam đứng thứ hai trong khu vực
+                                                    châu Á - Thái Bình Dương về nạn lãng phí thực phẩm với hơn 8 triệu
+                                                    tấn thực phẩm bị thất thoát hay vứt bỏ mỗi năm khi vẫn còn ăn được
+                                                    hoặc tận dụng được, gây tổn hại khoảng 3,9 tỷ USD mỗi năm. Trong khi
+                                                    đó, năm 2020, theo khảo sát của Bộ Nông nghiệp và Phát triển nông
+                                                    thôn, tổn thất lương thực của Việt Nam vào khoảng 10-15%.
+                                                    Lãng phí thực phẩm là câu chuyện không mới nhưng đến nay vẫn là bài
+                                                    toán hóc búa chưa tìm được lời giải, dù rằng đây chính là một trong
+                                                    những mối đe dọa đầy hiểm nguy đến môi trường sống. Tưởng đâu, đại
+                                                    dịch Covid-19 và các thiên tai tự nhiên liên tục xảy ra sẽ là hồi
+                                                    chuông cảnh tỉnh về sự cấp thiết phải chiến đấu với vấn nạn lãng phí
+                                                    thực phẩm, vậy mà vẫn có nhiều cá nhân còn dửng dưng, thờ ơ, đơn cử
+                                                    là câu chuyện “bắp rang miễn phí” ở trên.
+                                                    Cuộc chiến chống nạn lãng phí thực phẩm phải là cuộc chiến của từng
+                                                    cá thể, chứ không phải là cuộc chiến “vĩ mô” của các doanh nghiệp,
+                                                    Nhà nước hay tổ chức thế giới. Nhận thức của người tiêu dùng là điều
+                                                    quan trọng nhất để tạo nên sự thành công. Giảm thiểu lượng thức ăn
+                                                    bị lãng phí có thể bắt đầu từ việc biết “đủ” khi gọi món rồi mới đến
+                                                    những điều to tát hơn, như: kế hoạch bữa ăn để tránh thừa mứa, xử lý
+                                                    rác thải thực phẩm đúng cách, ủ rác thực phẩm trong vườn…
+                                                    Việc phạt tiền khi thực khách không dùng hết bữa ăn của mình đã được
+                                                    áp dụng ở nhiều nơi trên thế giới. Tại Hồng Kông (Trung Quốc), khách
+                                                    hàng sẽ phải trả thêm tiền nếu gọi món nhưng không ăn hết. Ở một số
+                                                    quán ở Mỹ, khách hàng sẽ phải trả thêm 30% giá trị bữa ăn nếu số
+                                                    thức ăn bỏ phí đủ mức chịu phạt. Chiến dịch “Clean Plate” cũng đã
+                                                    khởi động nhiều năm ở Trung Quốc với mục đích giảm chi tiêu xa hoa
+                                                    của các buổi tiệc… Riêng Việt Nam, việc xử phạt này vẫn chỉ mới len
+                                                    lỏi ở các nhà hàng buffet nhưng dường như vẫn còn “nhẹ tay”.
+                                                    Tuy nhiên, hơn cả việc chế tài, tinh thần tự ý thức, tự giác tránh
+                                                    lãng phí thực phẩm vẫn nên được nhân rộng và nâng cao ở mọi nơi, mọi
+                                                    tình huống, nhất là trong dịp Tết Nguyên đán đang cận kề. Một bàn
+                                                    tay không thể vỗ thành tiếng, nên mong rằng mỗi người, mỗi nhà đều
+                                                    sẽ là “chiến binh” trong cuộc chiến cấp bách này.
+
+                                                </p>
+                                                <div style="width: 100%;height: 300px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Property List End -->
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Nội dung chính</h5>
+                        <a class="btn btn-link text-white-50" href="./index.html">Trang Chủ</a>
+                        <a class="btn btn-link text-white-50" href="./app.html">Ứng dụng</a>
+                        <a class="btn btn-link text-white-50" href="./story.html">Câu Chuyện</a>
+                        <a class="btn btn-link text-white-50" href="./contact.html">Liên Hệ</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Liên Hệ</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>CS1, Huỳnh Văn Nghệ, Biên Hòa, Đồng Nai
+                        </p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0984.465.713</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>canh.bx@Share4happy.com</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Kết Nối</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.facebook.com/profile.php?id=100043191375032"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.youtube.com/@Share4Happy"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Phản Hồi</h5>
+                        <p>Hãy gửi những thắc mắc của bạn.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 c">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <h1 style="color: white; font-size: calc(0.5rem + 0.5vw);margin: 0;text-align: center"> © AI
+                        Robotics • Đại Học Lạc Hồng</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
