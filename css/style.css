@@ -598,3 +598,28 @@
         z-index: 99999;
     }
 }
+
+.box3{
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 5px rgba(119, 119, 119, 0.1);
+    overflow: hidden;
+}
+.box3>img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    aspect-ratio: 5/3;
+}
+.box3>.content>h1{
+    text-align: center;
+    width: 80%;
+    margin: 15px auto;
+    font-size: 20px;
+    color: #00B98E;
+}
+.box3>.content>p{
+    text-align: justify;
+    width: 80%;
+    margin: 15px auto;
+    font-size: 16px;
+}
